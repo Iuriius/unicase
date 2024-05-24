@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", "Fira Sans", sans-serif;
+    background-color: #F2F1E6;
+    background-image: url('../public/dots.webp');
+    background-blend-mode: color-burn;
+    background-size: cover;
+}

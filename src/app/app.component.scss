@@ -1,10 +1,131 @@
-  main {
-      width: 100%;
-      min-height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-      box-sizing: inherit;
-      position: relative;
+main {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+
+  &:visited {
+    text-decoration: none;
   }
+
+  &:hover {
+    color: #FFD600;
+    cursor: pointer;
+  }
+
+  &:active {
+    color: #FFD600;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #F2F1E6;
+  text-align: center;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #787872;
+  width: 100%;
+  background-color: #F2F1E6;
+
+}
+
+.mainlogo {
+  width: 200px;
+  padding: 0.5rem;
+
+  @media screen and (min-width: 1200px) {
+    width: 300px;
+    padding: 1rem;
+  }
+}
+
+.nav {
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  gap: 0.5rem;
+  list-style-type: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.p {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.activelink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFD600
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFD600;
+  color: azure;
+  line-height: 3rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.contentwrapper {
+  background-color: #000000;
+  width: 100%;
+
+}
+
+.footerlogo {
+  width: 200px;
+  padding-top: 0.5rem;
+
+  @media screen and (min-width: 1200px) {
+    width: 300px;
+  }
+}
+
+.confidentiallink {
+  color: #FFD600;
+  margin: 0;
+}
+
+.footertel {
+  font-family: "Fira Sans";
+  color: white;
+  margin: 0;
+}
