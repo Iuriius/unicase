@@ -7,11 +7,11 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import { ConfidentialComponent } from './components/confidential/confidential.component';
 
 export const routes: Routes = [
+    { path: 'home', 'title': 'АО "Юнікейс" - Головна', component: HomeComponent },
+    { path: 'cases', 'title': 'АО "Юнікейс" - Послуги', component: CasesComponent },
+    { path: 'ourteam', 'title': 'АО "Юнікейс" - Наша команда', component: OurteamComponent },
+    { path: 'contacts', 'title': 'АО "Юнікейс" - Контакти', component: ContactsComponent },
+    { path: 'confidential', 'title': 'АО "Юнікейс" - Політика конфіденційності', component: ConfidentialComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent },
-    { path: 'cases', component: CasesComponent },
-    { path: 'ourteam', component: OurteamComponent },
-    { path: 'contacts', component: ContactsComponent },
-    { path: 'confidential', component: ConfidentialComponent },
-    { path: '**', component: NotfoundComponent },
+    { path: '**', 'title': 'АО "Юнікейс" - Сторінка не знайдена', component: NotfoundComponent },
 ];
