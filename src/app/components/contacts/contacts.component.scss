@@ -41,7 +41,6 @@ iframe {
     @media screen and (min-width: 768px) {
         width: 700px;
         height: 400px;
-        margin-bottom: 3rem;
     }
 
     @media screen and (min-width: 1200px) {
@@ -112,4 +111,28 @@ mat-icon {
 
 .contactlink {
     text-align: center;
+}
+
+.button {
+    font-family: "Fira Sans";
+    text-align: center;
+    background-color: #FFD600;
+    color: #000000;
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+        background-color: #fff111;
+    }
+}
+
+.buttonwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
