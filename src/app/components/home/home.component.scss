@@ -175,3 +175,19 @@ mat-icon {
     justify-content: center;
     align-items: center;
 }
+
+.vibermob {
+    display: block;
+
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.viberdesk {
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
