@@ -6,23 +6,6 @@ h3 {
 a {
     font-family: "Fira Sans";
     text-decoration: none;
-    display: flex;
-    align-items: center;
-
-    &:hover,
-    &:focus {
-        cursor: pointer;
-    }
-}
-
-h2,
-h3 {
-    text-align: center;
-}
-
-a {
-    font-family: "Fira Sans";
-    text-decoration: none;
     color: #6C665A;
     display: flex;
     align-items: center;
