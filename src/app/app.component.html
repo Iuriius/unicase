@@ -2,29 +2,25 @@
   <img class="mainlogo" src="logo.webp" alt="logo" />
   <nav class="nav">
     <ul class="navigation">
-      <li><a class="link" routerLink="/home" routerLinkActive="activelink" ariaCurrentWhenActive="page">Головна</a>
-      </li>
-      <li><a class="link" routerLink="/cases" routerLinkActive="activelink" ariaCurrentWhenActive="page">Послуги</a>
-      </li>
-      <li><a class="link" routerLink="/ourteam" routerLinkActive="activelink" ariaCurrentWhenActive="page">Команда</a>
-      </li>
-      <li><a class="link" routerLink="/contacts" routerLinkActive="activelink" ariaCurrentWhenActive="page">Контакти</a>
-      </li>
+      <li><a class="link" routerLink="/home" routerLinkActive="activelink" aria-current="page">Головна</a></li>
+      <li><a class="link" routerLink="/cases" routerLinkActive="activelink" aria-current="page">Послуги</a></li>
+      <li><a class="link" routerLink="/ourteam" routerLinkActive="activelink" aria-current="page">Команда</a></li>
+      <li><a class="link" routerLink="/contacts" routerLinkActive="activelink" aria-current="page">Контакти</a></li>
     </ul>
   </nav>
 </header>
 
 <main class="container">
-  <router-outlet />
+  <router-outlet></router-outlet>
 </main>
 
 <footer class="footer">
   <div class="contentwrapper">
     <img class="footerlogo" src="blacklogo.webp" alt="logo">
     <p class="p">м. Київ, проспект Берестейський, 93</p>
-    <a class="footertel" href="tel:%2B380935378674" target="_blank">+38 (093) 5378674</a>
+    <a class="footertel" href="tel:+380935378674" target="_blank">+38 (093) 5378674</a>
     <br />
-    <a class="confidentiallink" routerLink="/confidential" ariaCurrentWhenActive="page">Політика конфіденційності</a>
+    <a class="confidentiallink" routerLink="/confidential" aria-current="page">Політика конфіденційності</a>
     <p class="p">© 2024 АО "Юнікейс" - Всі права захищено</p>
   </div>
 </footer>
